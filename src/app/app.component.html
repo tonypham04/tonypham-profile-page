@@ -1,5 +1,5 @@
-<div *ngFor="let project of projects">
+<div>
     <ul>
-        <li>{{ project.name }}</li>
+        <li *ngFor="let project of projects">{{ project.name }}</li>
     </ul>
 </div>
