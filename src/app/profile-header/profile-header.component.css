@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* Animation Styles
+******************************************/
+@keyframes flipUp {
+    0% {
+        transform: rotateX(90deg);
+    }
+    100% {
+        transform: rotateX(0deg);
+    }
+}
+
+.name {
+    display: inline-block;
+    animation: flipUp 1s linear both;
+    transform-origin: bottom
+}
+
+.name:nth-child(1) {
+    animation-delay: 0.5s;
+}
+
+.name:nth-child(2) {
+    animation-delay: 1.0s;
+}
+
+.name:nth-child(3) {
+    animation-delay: 1.5s;
+}
+
+.name:nth-child(4) {
+    animation-delay: 2.0s;
+}
+
+.name:nth-child(6) {
+    animation-delay: 2.5s;
+}
+
+.name:nth-child(7) {
+    animation-delay: 3.0s;
+}
+
+.name:nth-child(8) {
+    animation-delay: 3.5s;
+}
+
+.name:nth-child(9) {
+    animation-delay: 4.0s;
+}
+
+/* Header Styles
+******************************************/
+header {
+    background-color: rgb(220, 172, 127);
+    color: rgb(160, 106, 119);
+    font-family: 'Press Start 2P', cursive;
+}
