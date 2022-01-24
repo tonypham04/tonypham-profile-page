@@ -10,3 +10,8 @@
 * mango - #dcac7f, rgb(220, 172, 127)
 * light - #e3ddce, rgb(227, 221, 206)
 */
+
+body {
+    background-color: rgb(30, 39, 51);
+    color: rgb(227, 221, 206);
+}
