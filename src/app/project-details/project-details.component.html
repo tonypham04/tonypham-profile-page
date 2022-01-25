@@ -1,1 +1,5 @@
-<p>project-details works!</p>
+<details>
+    <summary>{{ project.name }}</summary>
+    <p>{{ project.description }}</p>
+    <a href="{{ project.link }}" class="btn btn-dark" target="_blank">View {{ project.name }}</a>
+</details>

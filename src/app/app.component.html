@@ -1,2 +1,5 @@
 <app-profile-header></app-profile-header>
 <app-profile-intro></app-profile-intro>
+<div *ngFor="let project of projects">
+    <app-project-details [project]="project"></app-project-details>
+</div>
