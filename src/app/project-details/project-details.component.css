@@ -1,0 +1,13 @@
+details {
+    border: 1px solid rgb(227, 221, 206);
+    border-radius: 5px;
+    padding: 15px;
+}
+
+.project-detail-even {
+    background-color: rgb(124, 162, 150);
+}
+
+.project-detail-odd {
+    background-color: rgb(73, 108, 136);
+}
