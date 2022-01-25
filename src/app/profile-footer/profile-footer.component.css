@@ -1,0 +1,10 @@
+footer {
+    font-size: 1.25rem;
+    background-color: rgb(220, 172, 127);
+    color: rgb(81, 66, 87);
+    padding: 15px;
+}
+
+a {
+    font-size: 3rem;
+}
