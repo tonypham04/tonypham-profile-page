@@ -1,1 +1,4 @@
-<p>project-list works!</p>
+<section>
+    <h2>Personal Projects</h2>
+    <app-project-details *ngFor="let project of projects" [project]="project"></app-project-details>
+</section>

@@ -1,7 +1,5 @@
 import { Component } from '@angular/core';
 
-import { projects } from './projects'
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -9,5 +7,4 @@ import { projects } from './projects'
 })
 export class AppComponent {
   title = 'tonypham-profile-page';
-  projects = projects;
 }
