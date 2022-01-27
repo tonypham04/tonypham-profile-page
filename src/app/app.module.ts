@@ -6,6 +6,7 @@ import { ProfileHeaderComponent } from './profile-header/profile-header.componen
 import { ProfileIntroComponent } from './profile-intro/profile-intro.component';
 import { ProjectDetailsComponent } from './project-details/project-details.component';
 import { ProjectListComponent } from './project-list/project-list.component';
+import { ProfileFooterComponent } from './profile-footer/profile-footer.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +14,8 @@ import { ProjectListComponent } from './project-list/project-list.component';
     ProfileHeaderComponent,
     ProfileIntroComponent,
     ProjectDetailsComponent,
-    ProjectListComponent
+    ProjectListComponent,
+    ProfileFooterComponent
   ],
   imports: [
     BrowserModule
