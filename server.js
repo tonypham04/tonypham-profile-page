@@ -5,4 +5,4 @@ app.use(express.static(__dirname + '/dist/tonypham-profile-page'));
 app.get('/*', function(req, res) {
     res.sendFile(path.joing(__dirname + '/dist/tonypham-profile-page/index.html'));
 });
-app.listen(process.env.port || 8080);
+app.listen(process.env.PORT || 8080);
