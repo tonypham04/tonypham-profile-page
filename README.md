@@ -11,6 +11,5 @@ While going into this project I was primarily looking to try out Angular I also 
 - CSS keyframe animations
 - [Bootstrap Cards Component](https://getbootstrap.com/docs/4.6/components/card/ "Bootstrap Card Component") and [Bootstrap Icons](https://icons.getbootstrap.com/ "Bootstrap Icons Main Page")
 - [TypeScript](https://www.typescriptlang.org/ "TypeScript main page")
-- Deployment using [Heroku](https://www.heroku.com/ "Heroku Main Page") cloud application platform
 
 This project uses Angular CLI version 13.1.1.
