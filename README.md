@@ -1,5 +1,5 @@
 # Summary
-On my [profile page](https://tonypham-profile-page.herokuapp.com/ "Tony Pham's Profile Page") you will find an informal introduction to who I am and some of the different projects I have worked on.
+On my profile page you will find an informal introduction to who I am and some of the different projects I have worked on.
 
 ## Motivation
 The motivation behind this project was primarily to practice using [Angular](https://angular.io/ "Angular Main Page").
